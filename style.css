@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.outerdiv {
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  display: grid;
+  background: #7777;
+}
+.innerdiv {
+  width: 100vw;
+  height: 70vh;
+  place-items: center;
+  display: grid;
+}
+.main-heading {
+  padding: 30px;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.31);
+  font-size: 200px;
+  color: rgb(255, 157, 10);
+}
